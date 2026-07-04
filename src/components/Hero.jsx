@@ -13,9 +13,9 @@ export default function Hero() {
       />
 
       <div className="relative z-10 mx-auto max-w-3xl">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-white/10 bg-panel px-4 py-2 font-mono text-xs text-muted sm:text-sm">
+        <div className="mb-6 inline-flex items-center gap-2 whitespace-nowrap rounded-lg border border-white/10 bg-panel px-4 py-2 font-mono text-[11px] text-muted sm:text-sm">
           <span className="text-primary">$</span>
-          <span>git commit -m "i promise to push this time"</span>
+          <span>git commit -m "gonna push today"</span>
           <span className="text-primary animate-pulse">_</span>
         </div>
 
