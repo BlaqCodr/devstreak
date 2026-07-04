@@ -13,9 +13,10 @@ export default function Hero() {
       />
 
       <div className="relative z-10 mx-auto max-w-3xl">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-panel px-4 py-1.5 text-sm text-muted">
-          <span>🔥</span>
-          <span>7 Day Streak</span>
+        <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-white/10 bg-panel px-4 py-2 font-mono text-xs text-muted sm:text-sm">
+          <span className="text-primary">$</span>
+          <span>git commit -m "i promise to push this time"</span>
+          <span className="text-primary animate-pulse">_</span>
         </div>
 
         <h1 className="mb-6 font-sans text-4xl font-extrabold leading-[1.1] text-text sm:text-5xl sm:leading-[1.05] md:text-6xl lg:text-[72px]">
