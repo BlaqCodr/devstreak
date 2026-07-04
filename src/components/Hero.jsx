@@ -33,7 +33,7 @@ export default function Hero() {
         </button>
 
         <div className="text-sm text-muted">
-          <span className="text-primary">★★★★★</span> Trusted by developers building consistently
+          Your dev productivity tool that's there to nudge you to show up.
         </div>
 
         <ContributionGraph />
